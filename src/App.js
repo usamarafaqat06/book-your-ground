@@ -4,6 +4,7 @@ import Home from './component/Home';
 import AboutUs from './component/AboutUs';
 import ContactUs from './component/ContactUs';
 import GroundDetail from './component/GroundDetail';
+import { Thankyou } from './component/thankyou';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="about" element={<AboutUs />} />
       <Route path="contact" element={<ContactUs />} />
       <Route path="groundDetail/:id" element={<GroundDetail />} />
+      <Route path="/thank-you" element={<Thankyou />} />
     </Route>
   </Routes>
   );
