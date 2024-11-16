@@ -19,7 +19,7 @@ const Banner = () => {
 
       {/* Text Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-      <ReactTyped  className="text-8xl font-bold font-roboto my-3" strings={["GrounGo: Where sports come alive."]} typeSpeed={100} />
+      <ReactTyped  className="text-8xl font-bold font-roboto my-3" strings={["GrounGo where sports come alive."]} typeSpeed={100} />
 
         {/* Animated Subheading */}
         <span className="font-roboto font-bold text-4xl mt-5 animate-fade-in text-bold text-primary">

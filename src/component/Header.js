@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full z-50 transition duration-400 bg-[#090E18] ">
       <div className="container mx-auto px-4 bg-secondary">
-        <nav className="navbar flex items-center justify-between border-b-2 border-gray-300 py-2 ">
-          <Link to="/" className="navbar-brand py-0">
-            <img src="./images/GroungGo.png" className="w-52 h-[100px] " alt="Logo" />
+        <nav className="navbar flex items-center justify-between border-b-2 border-gray-300  ">
+          <Link to="/" className="navbar-brand pt-4">
+            <img src="./images/GroungGo.png" className="w-80 h-[80px] object-cover" alt="Logo" />
           </Link>
           <button
             onClick={toggleMenu}
