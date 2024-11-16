@@ -12,7 +12,7 @@ export const Thankyou = () => {
     return (
       <div className="flex justify-center items-center min-h-screen bg-gray-100 px-4">
         <div className="w-full max-w-lg bg-white rounded-xl shadow-lg p-8">
-          <h2 className="text-3xl font-bold text-center text-green-600 mb-6">Thank You!</h2>
+          <h2 className="text-3xl font-bold text-center text-primary mb-6">Thank You!</h2>
           <p className="text-center text-gray-700">We appreciate you contacting us. Here are the details:</p>
   
           <div className="bg-gray-100 p-4 rounded-lg mt-4 space-y-2">

@@ -45,7 +45,7 @@ const Home = () => {
             placeholder="Search by city"
             value={searchCities}
             onChange={(e) => setSearchCities(e.target.value)}
-            className="w-full max-w-[200px] p-2 mb-6 border border-[#0AA70A] rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-full max-w-[200px] p-2 mb-6 border border-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
 
@@ -58,7 +58,7 @@ const Home = () => {
                 <div className="p-4">
                   <h2 className="text-xl font-semibold text-gray-800 mb-4">{item.name}</h2>
                   <button
-                    className="w-full py-2 bg-[#0AA70A] text-white font-semibold rounded-lg hover:bg-[#3b9c48] focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200"
+                    className="w-full py-2 bg-primary text-white font-semibold rounded-lg hover:bg-[#3b9c48] focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200"
                     onClick={() => navigate(`/groundDetail/${item.id}`, { state: { ground: item } })}
                   >
                     Book Now

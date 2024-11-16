@@ -10,7 +10,7 @@ const GroundList = ({ cityData }) => {
   );
 
   return (
-    <div className="container mx-auto w-full max-w-[1920px] bg-[#f1f3f9] text-center py-6">
+    <div className="container mx-auto w-full max-w-[1920px] bg-primary text-center py-6">
       <div className='flex justify-between mb-6 px-10 flex-wrap'>
         <h1 className="text-3xl font-bold flex-grow text-center ml-[200px] mb-4">
           Find Your Play
@@ -21,7 +21,7 @@ const GroundList = ({ cityData }) => {
           placeholder="Search by city"
           value={searchCities}
           onChange={(e) => setSearchCities(e.target.value)}
-          className="w-full max-w-[200px] p-2 mb-6 border border-[#0AA70A] rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-full max-w-[200px] p-2 mb-6 border border-primary rounded-lg focus:outline-none focus:ring-2 focus:primary"
         />
       </div>
 
@@ -34,7 +34,7 @@ const GroundList = ({ cityData }) => {
               <div className="p-4">
                 <h2 className="text-xl font-semibold text-gray-800 mb-4">{item.name}</h2>
                 <button
-                  className="w-full py-2 bg-[#0AA70A] text-white font-semibold rounded-lg hover:bg-[#3b9c48] focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200"
+                  className="w-full py-2 bg-primary text-white font-semibold rounded-lg hover:bg-primary focus:outline-none focus:ring-2 focus:ring-green-primary transition duration-200"
                   onClick={() => navigate(`/groundDetail/${item.id}`, { state: { ground: item } })}
                 >
                   Book Now

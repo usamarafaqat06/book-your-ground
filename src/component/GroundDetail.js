@@ -18,7 +18,7 @@ const GroundDetail = () => {
             <h1 className="text-3xl font-bold text-gray-800">{ground.name}</h1>
             <p className="text-gray-600 leading-relaxed">{ground.details}</p>
             <button
-              className="w-full py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200"
+              className="w-full py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200"
               onClick={() => navigate(`/contact`)}
             >
               Book Now

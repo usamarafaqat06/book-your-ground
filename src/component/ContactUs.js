@@ -51,7 +51,7 @@ const ContactUs = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
               placeholder="Your Name"
               required
             />
@@ -67,7 +67,7 @@ const ContactUs = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
               placeholder="Your Email"
               required
             />
@@ -83,7 +83,7 @@ const ContactUs = () => {
               name="preferredDate"
               value={formData.preferredDate}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
           </div>
@@ -98,7 +98,7 @@ const ContactUs = () => {
               name="preferredTime"
               value={formData.preferredTime}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
           </div>
@@ -112,7 +112,7 @@ const ContactUs = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
               placeholder="Your Message"
               rows="5"
               required
@@ -121,7 +121,7 @@ const ContactUs = () => {
 
           <button
             type="submit"
-            className="w-full py-3 bg-green-600 text-white font-semibold rounded-lg shadow-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200"
+            className="w-full py-3 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition-all duration-200"
           >
             Submit
           </button>
